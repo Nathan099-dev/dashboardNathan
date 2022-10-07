@@ -1,0 +1,91 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+
+}
+
+body{
+    width: 100%;
+    max-width: 1280px;
+}
+
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: green;
+    padding: 20px;
+}
+
+header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cards{
+    margin: 0 300px;
+    margin-right: 100px;
+    display: flex;
+   
+}
+
+.cards .card-temperatura{
+    background-color: #e90900;
+    padding: 40px 120px;
+    margin-right: 25px;
+
+   
+}
+
+.cards .card-temperatura p{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.cards .card-temperatura h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.cards .card-umidade{
+   background-color: rgb(0, 132, 255);
+   padding: 40px 120px;
+}
+
+.cards .card-umidade p{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.cards .card-umidade h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+
